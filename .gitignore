@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+.idea/
+.vscode/
+*.log
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+build/
+results/
+runs/
+*.csv
+!generation/human_annotations_anonymized.csv

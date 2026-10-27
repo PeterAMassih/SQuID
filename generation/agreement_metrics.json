@@ -1,0 +1,40 @@
+{
+  "percentage": {
+    "n_items": 26,
+    "n_raters": 11,
+    "mad_mean": 2.988846153846154,
+    "mad_median": 1.7350000000000003,
+    "mad_std": 3.238439589730115,
+    "median_value": 29.6575,
+    "icc_2k": 0.9302044370662874,
+    "krippendorff_alpha": 0.8323610447741556
+  },
+  "proximity": {
+    "n_items": 9,
+    "n_raters": 11,
+    "mad_mean": 2.841666666666667,
+    "mad_median": 2.25,
+    "mad_std": 1.4293121888983291,
+    "median_value": 10.535,
+    "icc_2k": 0.5168851405587509,
+    "krippendorff_alpha": 0.42431532743660316
+  },
+  "count": {
+    "n_items": 12,
+    "n_raters": 11,
+    "mad_mean": 1.5833333333333333,
+    "mad_median": 0.5,
+    "mad_std": 3.639100926816342,
+    "median_value": 3.0,
+    "icc_2k": 1.059474399196106,
+    "krippendorff_alpha": 0.9591716690113371,
+    "madc_mean": 0.12072752374178973,
+    "madc_median": 0.08333333333333333,
+    "madc_std": 0.12548604685554587
+  },
+  "tolerances": {
+    "percentage": 1.7350000000000003,
+    "proximity": 2.25,
+    "count_madc": 0.19
+  }
+}

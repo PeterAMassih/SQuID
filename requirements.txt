@@ -1,0 +1,29 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+Pillow>=10.0
+opencv-python>=4.8
+shapely>=2.0
+requests>=2.31
+tqdm>=4.66
+datasets>=2.20
+huggingface_hub>=0.23
+openai>=1.40
+
+# Open-source VLMs and training. torch is capped at 2.6 because later wheels
+# target CUDA 13 and fall back to CPU on drivers older than 570; for another
+# CUDA build use e.g. --index-url https://download.pytorch.org/whl/cu121.
+torch>=2.4,<2.7
+torchvision>=0.19,<0.22
+transformers>=4.57
+accelerate>=0.34
+peft>=0.13
+qwen-vl-utils>=0.0.8
+
+# Per-baseline extras, install only for the row you run:
+#   DINOv3 (QASR-C)        pip install git+https://github.com/facebookresearch/dinov3@76c051f5732cb4500bff5c23ac3c54a3695f15ff
+#   gpt-oss-120B (QASR-B)  pip install triton==3.4 kernels
+#   GeoChat                https://github.com/mbzuai-oryx/GeoChat
+#   Geo-R1                 upstream release
+#   RemoteSAM (QASR-E)     https://github.com/1e12Leon/RemoteSAM
+#   SAM-3 (QASR-F)         Hugging Face access to facebook/sam3

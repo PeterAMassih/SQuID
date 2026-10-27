@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: If you use SQuID, please cite the paper.
+title: "SQuID: Satellite Quantitative Intelligence Dataset"
+repository-code: https://github.com/PeterAMassih/SQuID
+license: MIT
+authors:
+  - family-names: Massih
+    given-names: Peter A.
+  - family-names: Cosatto
+    given-names: Eric
+  - family-names: Min
+    given-names: Martin Renqiang
+preferred-citation:
+  type: article
+  title: "SQuID: A Benchmark for Quantitative Spatial Reasoning on Satellite Imagery"
+  authors:
+    - family-names: Massih
+      given-names: Peter A.
+    - family-names: Cosatto
+      given-names: Eric
+    - family-names: Min
+      given-names: Martin Renqiang
+  year: 2026
+  journal: arXiv preprint
+  identifiers:
+    - type: other
+      value: "arXiv:2601.13401"
+  url: https://arxiv.org/abs/2601.13401
